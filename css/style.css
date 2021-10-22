@@ -1,0 +1,24 @@
+body{
+    background-color: burlywood;
+}
+.jumbotron{
+    margin: 0%;
+}
+.head{
+    margin-left: 350px;
+     border: 4px ridge rgba(255, 0, 0, 0.445);
+      width: 50%;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: green;
+}
+li{
+    cursor: pointer;
+}
+:hover.jav{
+    color: red;
+}
+:hover.ope{
+    color: rgb(102, 255, 0);
+}
