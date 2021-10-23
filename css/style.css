@@ -22,3 +22,30 @@ li{
 :hover.ope{
     color: rgb(102, 255, 0);
 }
+p{
+    text-indent: 10px;
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+a{
+    position: fixed;
+    color: rgb(197, 130, 75);
+    border: 4px ridge rgb(212, 4, 4);
+   margin: 25px;
+   padding: 4px;
+   border-radius: 20px;
+   background-color: lightgoldenrodyellow;
+}
+  
+:hover link {
+    color: rgb(123, 0, 139);
+}
+.link{
+    margin-top: 0.20%;
+   
+}
+.javhead{
+    background-color: rgb(223, 201, 9);
+}
