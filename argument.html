@@ -11,9 +11,61 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
 </head>
-<body style="background-color: blueviolet;">
-    <a href="index.html">HOME</a>
-<h1> all you need to know about javascript</h1>
-    
+<body style="background-color: rgb(207, 175, 236);">
+    <a href="index.html">HOME</a><br>
+
+<h1 style="text-align: center;">The Arguments </h1>
+<strong><h3>JavaScript functions have a built-in object called the arguments object.</h3><br>
+
+<marquee><p>The argument object contains an array of the arguments used when the function was called (invoked).</p>
+
+<p>This way you can simply use a function to find (for instance) the highest value in a list of numbers:</p></marquee>
+
+<h5>Example</h5>
+<p>x = findMax(1, 123, 500, 115, 44, 88);</p>
+
+<p>function findMax() {<br>
+  let max = -Infinity;
+  for (let i = 0; i < arguments.length; i++) {<br>
+    if (arguments[i] > max) {
+      max = arguments[i];
+    }<br>
+  }<br>
+  return max;<br>
+}
+</p>
+<p>Or create a function to sum all input values:</p>
+
+<p>Example</p>
+x = sumAll(1, 123, 500, 115, 44, 88);<br>
+
+function sumAll() {<br>
+  let sum = 0;<br>
+  for (let i = 0; i < arguments.length; i++) {<br>
+    sum += arguments[i];<br>
+  }<br>
+  return sum;<br>
+}<br>
+If a function is called with too many arguments (more than declared), these arguments can be reached using the arguments object.
+
+Arguments are Passed by Value
+The parameters, in a function call, are the function's arguments.
+
+JavaScript arguments are passed by value: The function only gets to know the values, not the argument's locations.
+
+If a function changes an argument's value, it does not change the parameter's original value.
+
+Changes to arguments are not visible (reflected) outside the function.
+
+Objects are Passed by Reference
+In JavaScript, object references are values.
+
+Because of this, objects will behave like they are passed by reference:
+
+If a function changes an object property, it changes the original value.
+
+Changes to object properties are visible (reflected) outside the function.
+</strong> 
+<a href="index.html" class="link">HOME-PAGE</a>
 </body>
 </html>

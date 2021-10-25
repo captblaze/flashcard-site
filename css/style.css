@@ -89,6 +89,7 @@ li{
 p{
     text-indent: 10px;
     font-size: 20px;
+    font-style: italic;
 }
 li{
     font-size: 20px;
@@ -96,7 +97,6 @@ li{
     font-style: bold;
 }
 a{
-    position: fixed;
     color: rgb(197, 130, 75);
     border: 4px ridge rgb(212, 4, 4);
    margin: 25px;
